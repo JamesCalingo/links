@@ -7,6 +7,10 @@ button {
     display: block;
 }
 
+header {
+    color: #00843D;
+}
+
 .link-button {
     width: 100%;
     margin-bottom: 20px;
