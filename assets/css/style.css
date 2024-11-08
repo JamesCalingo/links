@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+button {
+    display: block;
+}
+
+.link-button {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #00843D;
+}
+
+.link-button a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: bold;
+}
