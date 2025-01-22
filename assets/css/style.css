@@ -3,14 +3,14 @@ body {
     font-family: 'Roboto Mono', sans-serif;
 }
 
-main {
+/* main {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -75%);
     width: 90%;
 
-}
+} */
 
 button {
     display: block;
