@@ -4,11 +4,8 @@ body {
 }
 
 main {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -75%);
-    width: 90%;
+
+    margin: 0 5%;
 
 }
 
@@ -42,7 +39,6 @@ a {
 
 @media only screen and (max-width: 600px) {
     main {
-        position: static;
-        width: 100%;
+        margin: 0 3%;
     }
 }
