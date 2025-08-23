@@ -3,14 +3,14 @@ body {
     font-family: 'Roboto Mono', sans-serif;
 }
 
-/* main {
+main {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -75%);
     width: 90%;
 
-} */
+}
 
 button {
     display: block;
@@ -20,15 +20,28 @@ header {
     color: #00843D;
 }
 
-.link-button {
-    width: 100%;
-    margin-bottom: 20px;
-    background-color: #00843D;
+a {
+    text-decoration: none !important;
 }
 
-.link-button a {
-    text-decoration: none;
+.link-button {
     color: white;
     font-family: 'Roboto Mono', sans-serif;
     font-weight: bold;
+    width: 100%;
+    margin: 20px 0;
+    background-color: #00843D;
+}
+
+.link-button:hover {
+    background-color: white;
+    color: #00843D;
+    border: 2px solid #00843D;
+}
+
+
+@media only screen and (max-width: 600px) {
+    main {
+        width: 100%;
+    }
 }
